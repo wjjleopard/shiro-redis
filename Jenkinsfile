@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('update code') {
+    stage('shell test') {
       steps {
         sh 'env'
       }
